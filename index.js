@@ -165,6 +165,10 @@ function getQuote()  {
 
 	}
 
+	xhr.oneerror = function() {
+		alert("Unknown Error Occured. Server response not received.");
+	}
+
 	xhr.send();
 }
 
