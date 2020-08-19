@@ -148,7 +148,7 @@ function createInput(selectedOption) {
 function getQuote()  {
 	let numInput = document.querySelector('#triviaInput');
 	let xhr = new XMLHttpRequest();
-	let validurl = 'http://numbersapi.com/'+numInput.value+'?default='+'Unfortunately we do not have a fact related to this number at this moment.';
+	let validurl = 'https://numbersapi.com/'+numInput.value+'?default='+'Unfortunately we do not have a fact related to this number at this moment.';
 	xhr.open('GET', validurl, true);
 
 	xhr.onload = function() {
