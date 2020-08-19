@@ -5,10 +5,11 @@
 ![](https://github.com/Shanty97/randomize-facts/blob/master/documentation/one.gif?raw=true)
 
 This a web application built using html, css and Vanilla JavaScript, making use of classic Ajax for fetching data. It fetches random facts based on the input. It outputs three types of facts :
-    - Trivia Facts
-    - Math Facts
-    - Date Facts
-    
+
+ - Trivia Facts
+  - Math Facts
+  - Date Facts
+  
 ### Get Random trivia facts
 
 ![](https://github.com/Shanty97/randomize-facts/blob/master/documentation/two.gif?raw=true)
